@@ -1,4 +1,4 @@
-# flutter_restfulapi
+# Flutter_restfulapi
 
 I made an application that pulls users using the api I used Reqres
 

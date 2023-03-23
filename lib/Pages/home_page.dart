@@ -32,7 +32,9 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: const Center(child: Text('Accounts')),
+      ),
       body: isLoading == false
           ? const Center(
               child: CircularProgressIndicator(),
